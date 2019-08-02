@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="stylesheet.css">
+    <title> A Website </title>
+  </head>
+
+  <body>
+    <center><h1> A Website </h1></center>
+    <center><p> What’s a website? Here let <a href="https://en.wikipedia.org/wiki/Website"> Wikipedia</a> teach you because I won’t. I’m lazy like that.</p>
+    <p> Let’s see… How about an image? What would you like to see? A cow perhaps? </p>
+    <img src="https://foodinsight.org/wp-content/uploads/2013/05/dairy-cow.jpg"></img>
+    <p> Lovely. </p>
+    <br>
+    <p class="difFont" id="color" onmouseover="makeRed(this)" onmouseout="makeBlack(this)"> Oooh! What about a rubber duck? </p>
+    <img  src="https://media.istockphoto.com/vectors/rubber-duck-icon-vector-id530566226?k=6&m=530566226&s=612x612&w=0&h=5rDbJYYbRoxZuJ1BwkStWRCRHkgKMI9_49otSIKMp28="></img>
+    <p class="difFont"> Yay fun. So <a id="yellow"> yellow</a>. </p>
+    <p onmouseover="makeRed(this)" onmouseout="makeBlack(this)"> As enlightening as that was, I must go now. This was fun but immensely boring. Bye. </p></center>
+  </body>
+  <script>
+    function makeRed(element) {
+      element.style = "color:red"
+    }
+
+    function makeBlack(element) {
+      element.style = "color:black"
+    }
+  </script>
+</html>

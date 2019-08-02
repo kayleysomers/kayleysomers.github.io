@@ -1,0 +1,21 @@
+/* Formats heading */
+h1 {
+  color: blue;
+  font-size: 40px;
+  font-family: papyrus;
+}
+
+/* Comic Sans bb */
+p {
+  font-family: "Comic Sans MS";
+}
+
+/* font change for funzies */
+.difFont {
+  font-family: "Courier New", Courier, monospace;
+}
+
+#yellow {
+  color: 	#FFD700;
+  font-family: "Courier New", Courier, monospace;
+}
