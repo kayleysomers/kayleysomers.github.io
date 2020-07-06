@@ -1,6 +1,6 @@
 /*
 website colors:
-navy: #01395E
+navy: #012E4C
 dark grey: #747474
 teal: #8EC3AF
 light grey: #D5D5D5
@@ -10,10 +10,15 @@ white: #FFFFFF
 body {
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;
-  color: #01395E;
+  color: #8EC3AF;
   font-family: 'Ubuntu', sans-serif;
 }
 
+.website {
+  padding: 20px;
+  margin-top: 30px;
+  background-color: #012E4C;
+}
 /* Navigation Bar */
   ul {
     list-style-type: none;
