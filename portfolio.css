@@ -22,11 +22,12 @@ body {
 /* Navigation Bar */
   ul {
     list-style-type: none;
+    display: inline;
     margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: #747474;
-/*    position: fixed; */
+    position: fixed;
     top: 0;
     width: 100%;
     z-index: 100;
