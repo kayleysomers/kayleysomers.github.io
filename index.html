@@ -9,7 +9,6 @@
     <ul>
       <li><a href="#top">Top</a></li>
       <li><a href="#graphics">Graphics</a></li>
-      <li><a href="#art">Art</a></li>
     </ul>
 
     <div class="header">
@@ -21,31 +20,23 @@
     <div style="padding:20px;margin-top:30px;background-color:#8EC3AF;">
       <p id="top"></p>
       <br><br>
+      <!--intro/landing page-->
       <h1>Hello!</h1>
+      <p>I’m Kayley Somers, a graphic designer and artist! I love creating and helping others. Below is some work I've done.<p>
 
-      <p>I’m Kayley Somers, a graphic designer and artist! I love creating and helping others. Below is some work I've done in the past.<p>
-
+      <!--where portfolio work is displayed-->
       <p id="graphics"></p>
       <br><br>
-
       <h2>Graphics</h2>
       <img src="book.png" alt="Vinny the Vampire children's book" style="width:50%;">
       <img src="franklin program 1.jpg" alt="Franklin Moving-On Program Front and Back" style="width:50%;">
       <img src="franklin program 2.jpg" alt="Franklin Moving-On Program Inside" style="width:50%;">
 
-      <p id="art"></p>
-      <br><br>
-
-      <h2>Art</h2>
-      <script src="https://apps.elfsight.com/p/platform.js" defer></script>
-      <div class="elfsight-app-bb03909a-e852-49de-8951-40e6227f1f14"></div>
-
-
   </body>
   <script>
     //scroll bar code
-    window.onscroll = function() {myFunction()};
-    function myFunction() {
+    window.onscroll = function() {progressBar()};
+    function progressBar() {
     var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
     var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
     var scrolled = (winScroll / height) * 100;
