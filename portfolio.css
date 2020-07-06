@@ -31,8 +31,8 @@ body {
     background-color: #747474;
     top: 0;
     width: 100%;
-    /* position: fixed;
-    z-index: 100; */
+    position: fixed;
+    z-index: 100;
   }
 
   li {
@@ -43,7 +43,7 @@ body {
     display: block;
     color: white;
     text-align: center;
-    /* padding: 14px 16px; */
+    padding: 14px 16px;
     text-decoration: none;
   }
 
