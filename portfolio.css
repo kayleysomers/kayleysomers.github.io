@@ -8,6 +8,7 @@ white: #FFFFFF
  */
 
 body {
+  margin: 0;
   text-align: center;
   color: #8EC3AF;
   font-family: 'Ubuntu', sans-serif;
