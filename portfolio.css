@@ -77,8 +77,8 @@ p {
   background-color: #DCDCDC;
   top: 0;
   height: 100%;
-  position: relative;
   z-index: 100;
+    position: relative;
 }
 
 /* .column {
