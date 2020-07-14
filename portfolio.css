@@ -70,6 +70,7 @@ p {
 }
 
 .pictures {
+  float: right;
   margin: 0;
   padding: 0;
   overflow: hidden;
@@ -78,7 +79,6 @@ p {
   height: 100%;
   position: fixed;
   z-index: 100;
-  float: right;
 }
 
 /* .column {
