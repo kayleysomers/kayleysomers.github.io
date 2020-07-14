@@ -73,6 +73,10 @@ p {
   height: 100vh;
   width: 75%;
   background-color: #DCDCDC;
+  margin: 0;
+  padding: 0;
+  position: fixed;
+  z-index: 100;
 }
 
 /* .column {
