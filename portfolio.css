@@ -5,6 +5,7 @@ dark grey: #747474
 teal: #8EC3AF
 light grey: #D5D5D5
 white: #FFFFFF
+grey: #DCDCDC
  */
 
 body {
@@ -68,9 +69,10 @@ p {
   box-sizing: border-box;
 }
 
-.navbar {
+.pictures {
   height: 100vh;
-  width: 200px;
+  width: 75%;
+  background-color: #DCDCDC;
 }
 
 .column {
