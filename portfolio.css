@@ -70,7 +70,7 @@ p {
 }
 
 .pictures {
-  float: right;
+  /* float: right; */
   margin: 0;
   padding: 0;
   overflow: hidden;
