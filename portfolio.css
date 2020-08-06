@@ -70,11 +70,11 @@ p {
 }
 
 .pictures {
-  /* float: right; */
+  float: right;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #DCDCDC;
+  /* background-color: #DCDCDC; */
   top: 0;
   height: 100%;
   z-index: 100;
